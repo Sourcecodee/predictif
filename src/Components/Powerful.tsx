@@ -3,7 +3,7 @@ import Card from './Card'
 
 const Powerful = () => {
   return (
-    <div className='flex flex-col gap-3 h-[780px] justify-center items-center mt-20 text-[#0101018F]'>
+    <div className='flex flex-col gap-3 h-[780px] justify-center items-center text-[#0101018F]'>
 
         <div className='flex items-center justify-between text-center flex-col gap-12 w-[50%]'>
             <div className='font-bold leading-[45px] text-[45px] text-[#001A32]'>A powerful betting tool to gain an edge over the bookmakers</div>
@@ -16,7 +16,8 @@ const Powerful = () => {
             border="#001A32"
             vBoder='border'
             width="50%"
-            sizeOne={56}
+            sizeOne='34px'
+            bg='green'
         />
 
     </div>
